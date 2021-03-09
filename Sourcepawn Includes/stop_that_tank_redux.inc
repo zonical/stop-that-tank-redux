@@ -20,3 +20,6 @@ forward void STT_OnTankSpawn(int entity, int team, int health);
 forward void STT_OnTankDestroyed(int entity, int team, int destroyer);
 forward void STT_OnGiantSpawned(int player, int team, int giantindex);
 forward void STT_OnGiantKilled(int player, int team, int attacker, int giantindex);
+
+forward void STT_OnBombSpawned(int player, int team, int bomb_entity);
+forward void STT_OnBombDeployed(int player, int team, int bomb_entity);
